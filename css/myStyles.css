@@ -1,0 +1,80 @@
+body {
+	margin: 0;
+	padding: 0;
+		background-image: url("../images/background.jpg")
+}
+
+.title {
+
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 8em;
+	text-align: center;
+	font-family: 'Russo One', sans-serif;
+	color: #7800FF;
+}
+
+#myCanvasDiv{
+	width: 100%;
+	text-align: center;
+
+}
+
+#myCanvas {
+	display: block;
+	background-image: #ffe6b3;
+	border: 2px solid #4d0099;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#heading{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	height: 100px;
+	width: 100%;
+	background-image: url("../images/header.jpg")
+}
+
+#menuBar{
+	background-color: #7800FF;
+	width: 100%;
+	height: 60px;
+}
+
+.newMenuChunk{
+	padding-top: 15px;
+	width: 33.3%;
+	text-align: center;
+	font-size: 2em;
+	background-color: ##7800FF;
+	font-family: 'Wendy One', sans-serif;
+	color: #FF00F7;
+
+
+
+}
+
+.floatMe{
+	float: left;
+}
+
+#canvas{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+	width: 600px;
+	height: 700px;
+	position: relative;
+}
+
+#moon{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
